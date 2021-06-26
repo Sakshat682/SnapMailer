@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SnapMailer</string>
+    <string name="Already_Have_an_Account"><b><u>Already Have an Account</u></b></string>
+    <string name="forgot_pass"><b><u>Forgot Password?</u></b></string>
+</resources>
