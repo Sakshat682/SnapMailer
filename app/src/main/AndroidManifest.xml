@@ -13,7 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SnapMailer">
-        <activity android:name=".SchedulerActivity"></activity>
+        <activity android:name=".SchedulingActivity"></activity>
         <activity
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" />
@@ -25,8 +25,11 @@
         <activity android:name=".MailActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".SendMailActivity" />
+        <activity android:name=".SendMailActivity" >
+
+        </activity>
         <activity android:name=".MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -46,7 +46,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/loginInputEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/loginInputEmail"
+        android:textCursorDrawable="@drawable/cursor_color"/>
 
     <EditText
         android:id="@+id/loginInputEmail"
@@ -69,7 +70,8 @@
         app:layout_constraintEnd_toEndOf="@+id/loginInputPassword"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/loginInputPassword"
-        app:layout_constraintTop_toBottomOf="@+id/loginLogo" />
+        app:layout_constraintTop_toBottomOf="@+id/loginLogo"
+        android:textCursorDrawable="@drawable/cursor_color"/>
 
     <TextView
         android:id="@+id/loginForgotPassword"

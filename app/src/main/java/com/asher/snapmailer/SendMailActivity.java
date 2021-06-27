@@ -29,6 +29,7 @@ public class SendMailActivity extends Activity{
     private EditText editTextSubject;
     private EditText editTextMessage;
     private FloatingActionButton fab;
+
     final private Context context = this;
 
     private Button buttonSend;
@@ -49,14 +50,7 @@ public class SendMailActivity extends Activity{
         Transport.send(message);
         System.out.println("Message finally sent");
 
-        Button fbtn= findViewById(R.id.schedulefab);
-        fbtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(SendMailActivity.this, SchedulerActivity.class));
-                //.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
-            }
-        });
+
     }
     private Message prepareMessage(Session session, String myAccountEmail, String recepient) {
         Message message = new MimeMessage(session);
@@ -128,6 +122,15 @@ public class SendMailActivity extends Activity{
             });
 
         }
+
+        Button fbtn= findViewById(R.id.schedulefab);
+        fbtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(SendMailActivity.this, SchedulingActivity.class)
+                        .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+            }
+        });
 
     }
 

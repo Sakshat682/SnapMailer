@@ -5,87 +5,110 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorTaskbar2"
-    tools:context=".LoginActivity">
+    tools:context=".SendMailActivity">
 
-    <RelativeLayout
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editTextEmail"
+        android:layout_marginStart="18dp"
+        android:text="Subject"
+        android:textColor="@color/colorTaskbar"
+        app:layout_constraintBottom_toTopOf="@+id/editTextSubject"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
-        android:layout_height="600dp"
-        android:background="@color/colorTaskbar2"
-        android:backgroundTint="@color/colorTaskbar2"
-        android:orientation="vertical"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp">
+        android:layout_height="wrap_content"
+        android:layout_above="@id/editTextSubject"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="48dp"
+        android:inputType="text"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintBottom_toTopOf="@+id/editTextSubject"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textCursorDrawable="@drawable/cursor_color"/>
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextSubject"
+        android:layout_marginStart="18dp"
+        android:text="Recipient Email"
+        android:textColor="@color/colorTaskbar"
+        app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@id/editTextEmail"
-            android:layout_marginBottom="2dp"
-            android:text="Recipient Email"
-            android:textColor="@color/colorTaskbar" />
+    <EditText
+        android:id="@+id/editTextSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextMessage"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="48dp"
+        android:inputType="textWebEmailAddress|text"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintBottom_toTopOf="@+id/editTextMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textCursorDrawable="@drawable/cursor_color"/>
 
-        <EditText
-            android:id="@+id/editTextEmail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_above="@id/editTextSubject"
-            android:layout_marginBottom="50dp"
-            android:textColor="@color/colorwhite" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editTextMessage"
+        android:layout_marginStart="18dp"
+        android:text="Message"
+        android:textColor="@color/colorTaskbar"
+        app:layout_constraintBottom_toTopOf="@+id/editTextMessage"
+        app:layout_constraintStart_toStartOf="parent" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/editTextSubject"
-            android:layout_marginBottom="2dp"
-            android:text="Subject"
-            android:textColor="@color/colorTaskbar" />
+    <EditText
+        android:id="@+id/editTextMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonSend"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/inputbg3"
+        android:inputType="textMultiLine|text"
+        android:lines="6"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorwhite"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSend"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textCursorDrawable="@drawable/cursor_color"/>
 
-        <EditText
-            android:id="@+id/editTextSubject"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/editTextMessage"
-            android:layout_marginBottom="50dp"
-            android:textColor="@color/colorwhite" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/editTextMessage"
-            android:layout_marginBottom="2dp"
-            android:text="Message"
-            android:textColor="@color/colorTaskbar" />
-
-        <EditText
-            android:id="@+id/editTextMessage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_above="@+id/buttonSend"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginBottom="60dp"
-            android:background="@drawable/inputbg3"
-            android:lines="6"
-            android:textColor="@color/colorwhite" />
-
-        <Button
-            android:id="@+id/buttonSend"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="100dp"
-            android:background="@drawable/btn_selector"
-            android:text="Send" />
-
-
-    </RelativeLayout>
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="349dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/btn_selector"
+        android:text="Send"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/schedulefab"
@@ -95,10 +118,31 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="4dp"
         android:backgroundTint="@color/lightRed"
-        android:drawableLeft="@drawable/ic_email"
-        android:text="Send"
+        android:drawableLeft="@drawable/ic_baseline_timer_24"
+        android:text="Schedule"
+        android:textColor="@color/colorwhite"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:tint="@color/colorRed"
         tools:ignore="VectorDrawableCompat" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="106dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="12dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="0dp"
+        android:text="MAIL"
+        android:textColor="@color/colorwhite"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29" />
 </androidx.constraintlayout.widget.ConstraintLayout>
