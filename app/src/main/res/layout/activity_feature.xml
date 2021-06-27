@@ -43,7 +43,8 @@
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintVertical_bias="0.0"
+                android:layout_marginRight="16dp"/>
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -74,5 +75,6 @@
         android:layout_margin="@dimen/fab_margin"
         android:backgroundTint="@drawable/text_color"
         app:srcCompat="@drawable/ic_email"
-        app:tint="@color/white" />
+        app:tint="@color/white"
+        tools:ignore="VectorDrawableCompat"/>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

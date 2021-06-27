@@ -50,8 +50,8 @@ public class FeatureActivity extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(FeatureActivity.this, MailActivity.class)
-                        .setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
+                startActivity(new Intent(FeatureActivity.this, SendMailActivity.class));
+                        //.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP));
             }
         });
 
