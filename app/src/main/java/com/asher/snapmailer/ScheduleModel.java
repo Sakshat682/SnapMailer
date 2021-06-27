@@ -8,7 +8,7 @@ public class ScheduleModel {
     public int image;
 
 
-    public ScheduleModel(String name, String daTetime, String time, int image) {
+    public ScheduleModel(String name, String dateTime, String time, int image) {
         this.name = name;
         this.dateTime = dateTime;
         this.time = time;

@@ -51,6 +51,13 @@ public class MailHistoryFragment extends Fragment {
         list.add(new MailHistoryModel("Rana Akshat", "09:16 pm", R.drawable.ic_baseline_person_24, true));
         list.add(new MailHistoryModel("Rana Akshat", "09:16 pm", R.drawable.ic_baseline_person_24, true));
         list.add(new MailHistoryModel("Rana Akshat", "09:16 pm", R.drawable.ic_baseline_person_24, true));
+        list.add(new MailHistoryModel("Rana Akshat", "09:16 pm", R.drawable.ic_baseline_person_24, true));
+        list.add(new MailHistoryModel("Rana Akshat", "09:16 pm", R.drawable.ic_baseline_person_24, true));
+        list.add(new MailHistoryModel("Rana Akshat", "09:16 pm", R.drawable.ic_baseline_person_24, true));
+        list.add(new MailHistoryModel("Rana Akshat", "09:16 pm", R.drawable.ic_baseline_person_24, true));
+        list.add(new MailHistoryModel("Rana Akshat", "09:16 pm", R.drawable.ic_baseline_person_24, true));
+        list.add(new MailHistoryModel("Rana Akshat", "09:16 pm", R.drawable.ic_baseline_person_24, true));
+        list.add(new MailHistoryModel("Rana Akshat", "09:16 pm", R.drawable.ic_baseline_person_24, true));
 
 
 

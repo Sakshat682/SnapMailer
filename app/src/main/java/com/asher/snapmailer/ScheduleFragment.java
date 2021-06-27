@@ -47,6 +47,19 @@ public class ScheduleFragment extends Fragment {
         list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
         list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
         list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
+        list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
+        list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
+        list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
+        list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
+        list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
+        list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
+        list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
+        list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
+        list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
+        list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
+        list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
+        list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
+        list.add(new ScheduleModel("Reciever : Harsh", "29/06/21  11:30","09:07", R.drawable.ic_baseline_person_24));
 
 
 
