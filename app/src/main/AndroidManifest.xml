@@ -9,8 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SnapMailer">
-        <activity android:name=".MailActivity"></activity>
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".MyProfileActivity"></activity>
+        <activity
+            android:name=".FeatureActivity"
+            android:label="@string/title_activity_feature"
+            android:theme="@style/Theme.SnapMailer.NoActionBar" />
+        <activity android:name=".MailActivity" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>

@@ -16,4 +16,10 @@
     <color name="colorTaskbar2">#1674BF</color>
     <color name="lightGray">#858585</color>
     <color name="lighterGray">#a8a8a8</color>
+
+
+    <color name="darkGreen">#075D56</color>
+    <color name="textGreen">#80B0AC</color>
+    <color name="lightGreen">#00CA3E</color>
+    <color name="red">#ff0d0d</color>
 </resources>

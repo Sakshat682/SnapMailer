@@ -21,14 +21,16 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.091" />
 
-    <TextView
+    <Button
         android:id="@+id/welcomeNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/input_bg"
-        android:backgroundTint="@color/colorwhite"
+        android:background="@drawable/btn_selector"
         android:drawableRight="@drawable/ic_east"
-        android:paddingLeft="5dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="10dp"
         android:text="Next"
         android:textColor="@drawable/text_color3"
         android:textSize="24sp"
