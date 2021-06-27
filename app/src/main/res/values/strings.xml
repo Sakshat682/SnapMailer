@@ -3,7 +3,7 @@
     <string name="Already_Have_an_Account"><b><u>Already Have an Account</u></b></string>
     <string name="forgot_pass"><b><u>Forgot Password?</u></b></string>
     <string name="title_activity_feature">FeatureActivity</string>
-    <string name="tab_text_1">Mail History</string>
+    <string name="tab_text_1">History</string>
     <string name="tab_text_2">Schedule</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
